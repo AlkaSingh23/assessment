@@ -36,4 +36,8 @@ payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 	</flow>
+	<flow name="implementation_mhsFlow" doc:id="07db0e47-b51b-4cf7-aa2b-094a8d3a142d" >
+		<http:listener doc:name="Listener" doc:id="76f5371d-89b5-4804-ad86-7b0f15c93d45" config-ref="HTTP_Listener_config" path="/gitcheck"/>
+		<set-payload value="payload message by alka" doc:name="Set Payload" doc:id="0d048a59-8c7e-48d6-908e-6326a83bff3f" />
+	</flow>
 </mule>
