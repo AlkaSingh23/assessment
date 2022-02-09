@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_daa5e877_374e_4b8e_8f05_853a266694da_Output_Payload = Array<{|  M_Id: String,   M_Name: String,   Manufacturer: String,   M_Stock: Number|}>
+
